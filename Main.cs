@@ -12,11 +12,11 @@ namespace MyPhotoshop
 		{
 			var window=new MainWindow();
 			window.AddFilter(new PixelFilter<LighteningParameters>(
-				"Dark/Ligh",
+                "Brightness",
 				(original, parameters) => original * parameters.Coefficient
 			));
 			window.AddFilter(new PixelFilter<EmptyParameters>(
-				"Gray scale",
+                "Grayscale",
 				(original, parameters) => {
 					var lightness = 0.2126 * original.R + 0.7152 * original.G + 0.0722 * original.B;
 					return new Pixel(lightness, lightness, lightness);
@@ -31,7 +31,7 @@ namespace MyPhotoshop
                 
             ));
             window.AddFilter(new TransformFilter<EmptyParameters>(
-                "Resize",
+                "Invert",
 				new FreeTransformer(
 					size => size,
 					(point, size) => new Point(size.Width - point.X - 1, point.Y)

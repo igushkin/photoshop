@@ -6,8 +6,8 @@ using System.Text;
 namespace MyPhotoshop
 {
     /// <summary>
-    /// Этот класс содержит описание одного параметра фильтра: как он называется, в каких пределах изменяется, и т.д.
-    /// Эта информация необходима для настройки графического интерфейса.
+    /// This class contains a description of one filter parameter: what is it called, within what limits it changes, etc.
+    /// This information is necessary to configure the GUI.
     /// </summary>
     public class ParameterInfo : Attribute
     {
