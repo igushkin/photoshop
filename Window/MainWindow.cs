@@ -32,7 +32,7 @@ namespace MyPhotoshop
 			Controls.Add (filtersSelect);
 
             apply=new Button();
-			apply.Text="Применить";
+			apply.Text="Apply";
 			apply.Enabled=false;
 			apply.Click+=Process;
 			Controls.Add (apply);
@@ -149,6 +149,16 @@ namespace MyPhotoshop
 			processed.Image=resultBmp;
 		}
 
-        
-	}
+        private void InitializeComponent()
+        {
+            this.SuspendLayout();
+            // 
+            // MainWindow
+            // 
+            this.ClientSize = new System.Drawing.Size(1799, 1008);
+            this.Name = "MainWindow";
+            this.ResumeLayout(false);
+
+        }
+    }
 }

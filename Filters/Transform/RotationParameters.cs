@@ -7,7 +7,7 @@ namespace MyPhotoshop
 {
     public class RotationParameters : IParameters
     {
-        [ParameterInfo(Name = "Угол поворота", MaxValue = 360, MinValue = 0, Increment = 5, DefaultValue = 0)]
+        [ParameterInfo(Name = "Rotation angle", MaxValue = 360, MinValue = 0, Increment = 5, DefaultValue = 0)]
         public double Angle { get; set; }
     }
 }

@@ -75,4 +75,9 @@
   <ItemGroup>
     <Content Include="Tasks.txt" />
   </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Window\MainWindow.resx">
+      <DependentUpon>MainWindow.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
 </Project>
