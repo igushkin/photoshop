@@ -1,15 +1,18 @@
 # Photoshop
 
-**The application allows the user to edit the color and shape of the image**
+**The application allows the user to edit the color and angle of the image**
 <br />
 
 ![Maze types](/examples/photo-editing.gif "Photoshop")
 
 Color  
 <br />
+The application changes the color of the image by changing the values of one RGB channel.
 
-Shape  
+Angle
 <br />
+In two-dimensional space, a rotation can be described by one angle θ with the following linear transformation matrix in the Cartesian coordinate system:
+![Maze types](/examples/core.png "") ![Maze types](/examples/formula.png "")
 
 The application can change the color and position of the image. 
 The RGB color model was used to edit the image color. In this model, the color is represented as a combination of three channels: red, green and blue.
