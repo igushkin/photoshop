@@ -1,9 +1,15 @@
 # Photoshop
 
-**The application allows the user to edit the image using several filters**
+**The application allows the user to edit the color and shape of the image**
 <br />
 
 ![Maze types](/examples/photo-editing.gif "Photoshop")
+
+Color__
+<br />
+
+Shape__
+<br />
 
 The application can change the color and position of the image. 
 The RGB color model was used to edit the image color. In this model, the color is represented as a combination of three channels: red, green and blue.
