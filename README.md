@@ -1,6 +1,6 @@
 # Photoshop
 
-**Edits an image using multiple filters**
+**The application allows the user to edit the image using several filters**
 <br />
 
 ![Maze types](/examples/photo-editing.gif "Photoshop")
