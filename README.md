@@ -5,24 +5,12 @@
 
 ![Maze types](/examples/photo-editing.gif "Photoshop")
 
-Color  
-<br />
+**Color**  
 The application changes the color of the image by changing the values of one RGB channel.
 
-Angle
-<br />
+**Angle**  
 In two-dimensional space, a rotation can be described by one angle θ with the following linear transformation matrix in the Cartesian coordinate system:  
 ![Maze types](/examples/core.png "") ![Maze types](/examples/formula.png "")
-
-The application can change the color and position of the image. 
-The RGB color model was used to edit the image color. In this model, the color is represented as a combination of three channels: red, green and blue.
-Image rotation is a common image processing routine with applications in matching, alignment, and other image-based algorithms. 
-
-Maze generator can create rectangular, hexagonal, honeycomb and circular mazes.
-Maze generation can be done using Kruskal's algorithm, depth-first search,
-breadth-first search, loop-erased random walk or Prim's algorithm. Mazes can be
-rendered in svg or png format (using gnuplot as intermediate in the latter
-case).
 
 ## Dependencies
 
