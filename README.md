@@ -7,15 +7,19 @@
 
 **Color**  
 
-The application changes the color of the image by changing the values of one RGB channel.
+The application changes the color of the image by changing the values of RGB channels.
 
 **Angle**
 
-In two-dimensional space, a rotation is described by one angle θ with the following linear transformation matrix in the Cartesian coordinate system ([original source](https://ru.wikipedia.org/wiki/%D0%9C%D0%B0%D1%82%D1%80%D0%B8%D1%86%D0%B0_%D0%BF%D0%BE%D0%B2%D0%BE%D1%80%D0%BE%D1%82%D0%B0)):  
+A rotation is described by one angle θ with the following linear transformation matrix in the Cartesian coordinate system ([original source](https://ru.wikipedia.org/wiki/%D0%9C%D0%B0%D1%82%D1%80%D0%B8%D1%86%D0%B0_%D0%BF%D0%BE%D0%B2%D0%BE%D1%80%D0%BE%D1%82%D0%B0)):  
 
 ![](/examples/formula.png)  
 
 ![](/examples/core.png "")
+
+## Dependencies
+
+* Windows Forms .NET
 
 ## Dependencies
 
@@ -62,7 +66,6 @@ Optional arguments
   -o      Prefix for .svg, .plt and .png outputs (default: maze)
 ```
 
-## Issues
+## Goal
 
-The arcs in the circular mazes are plotted as parametric curves in gnuplot, and
-png can take quite long to render for large mazes.
+My goal was twofold : сreate a project with visual functionality and learn C# in the process. 
