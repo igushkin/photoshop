@@ -5,6 +5,10 @@
 
 ![Maze types](/examples/photo-editing.gif "Photoshop")
 
+The application can change the color and position of the image. 
+The RGB color model was used to edit the image color. In this model, the color is represented as a combination of three channels: red, green and blue.
+Image rotation is a common image processing routine with applications in matching, alignment, and other image-based algorithms. 
+
 Maze generator can create rectangular, hexagonal, honeycomb and circular mazes.
 Maze generation can be done using Kruskal's algorithm, depth-first search,
 breadth-first search, loop-erased random walk or Prim's algorithm. Mazes can be
