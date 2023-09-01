@@ -1,6 +1,6 @@
 # Photoshop
 
-**The application allows the user to edit the color and angle of the image**
+**The application allows the user to apply basic filters to the image**
 <br />
 
 ![](/examples/photo-editing.gif "Photoshop")
@@ -30,5 +30,5 @@ This application requires .NET Framework 4.5 to run.
 Dowload the source, compile and run should work out of the box.
 
 ```
-https://github.com/igushkin/photoshop-pre-alpha-release.git
+git clone https://github.com/igushkin/photoshop-pre-alpha-release.git
 ```
