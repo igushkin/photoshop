@@ -5,10 +5,10 @@
 
 ![Maze types](/examples/photo-editing.gif "Photoshop")
 
-Color__
+Color  
 <br />
 
-Shape__
+Shape  
 <br />
 
 The application can change the color and position of the image. 
