@@ -11,7 +11,7 @@ The application changes the color of the image by changing the values of one RGB
 
 Angle
 <br />
-In two-dimensional space, a rotation can be described by one angle θ with the following linear transformation matrix in the Cartesian coordinate system:
+In two-dimensional space, a rotation can be described by one angle θ with the following linear transformation matrix in the Cartesian coordinate system:  
 ![Maze types](/examples/core.png "") ![Maze types](/examples/formula.png "")
 
 The application can change the color and position of the image. 
