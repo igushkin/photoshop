@@ -1,6 +1,6 @@
 # Photoshop
 
-**Generate mazes of different shapes and arbitrary sizes**
+**Edits an image using multiple filters**
 <br />
 
 ![Maze types](/examples/photo-editing.gif "Photoshop")
