@@ -1,7 +1,8 @@
 # Photoshop
 
-**Generate mazes of different shapes and arbitrary sizes**
 ![Maze types](/examples/photo-editing.gif "Photoshop")
+
+**Generate mazes of different shapes and arbitrary sizes**
 
 Maze generator can create rectangular, hexagonal, honeycomb and circular mazes.
 Maze generation can be done using Kruskal's algorithm, depth-first search,
