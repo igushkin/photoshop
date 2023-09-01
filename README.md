@@ -9,7 +9,7 @@
 The application changes the color of the image by changing the values of one RGB channel.
 
 **Angle**  
-In two-dimensional space, a rotation can be described by one angle θ with the following linear transformation matrix in the Cartesian coordinate system: ![](/examples/formula.png | width=100 )  
+In two-dimensional space, a rotation can be described by one angle θ with the following linear transformation matrix in the Cartesian coordinate system: ![](/examples/formula.png|width=100)  
 ![](/examples/core.png "")
 
 ## Dependencies
