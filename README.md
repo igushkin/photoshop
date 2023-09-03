@@ -1,6 +1,6 @@
 # Photoshop
 
-**Photoshop is a Windows Forms application that allows the user to apply basic filters to an image**
+**Photoshop is a Windows Forms application that allows users to apply basic filters to an image**
 <br />
 
 ![](/examples/photo-editing.gif "Photoshop")
